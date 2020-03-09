@@ -14,7 +14,7 @@ class AminoAcidLL{
    * pair and increments the codon counter for that codon.
    * NOTE: Does not check for repeats!! */
   AminoAcidLL(String inCodon){
-  
+
   }
 
   /********************************************************************************************/
@@ -24,14 +24,18 @@ class AminoAcidLL{
    * If there is no next node, add a new node to the list that would contain the codon. 
    */
   private void addCodon(String inCodon){
-  
+    if(incodon == ){
+      counts[/*what index the codon is at*/]++;
+    }
+    else{}
   }
 
 
   /********************************************************************************************/
   /* Shortcut to find the total number of instances of this amino acid */
   private int totalCount(){
-    return 0;
+    int counter = 0;
+    return counter++;
   }
 
   /********************************************************************************************/
@@ -64,6 +68,7 @@ class AminoAcidLL{
   /* Same ad above, but counts the codon usage differences
    * Must be sorted. */
   public int codonCompare(AminoAcidLL inList){
+    //totalCount() minus the list of amino acid
     return 0;
   }
 
@@ -91,6 +96,7 @@ class AminoAcidLL{
   /********************************************************************************************/
   /* Static method for generating a linked list from an RNA sequence */
   public static AminoAcidLL createFromRNASequence(String inSequence){
+
     return null;
   }
 
